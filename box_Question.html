@@ -54,7 +54,22 @@
     </h2>
     <p>直メッセージで質問を頂いてもOKです‼‼‼</p>
     <p>SNSで頂いた質問に対して順次回答をしていきたいと思います。質問内容によっては回答を控えさせていただくこともございます。ご了承くださいませ。</p>
-      
+    <p>テキストボックスは練習用です。実際には送れたりする機能はありません。</p>
+    
+    <p>
+      <label for="type_Question">質問の種類を選択</label> <!--ラベル付与-->
+      <select id="type_Question" size="4" multiple> <!--ドロップダウンリストでselectを使用、表示できる行数、複数選択可能にする-->
+        <option>仕事について</option> <!--ドロップダウンの選択肢に使用-->
+        <option>趣味について</option>
+        <option>プログラミング学習について</option>
+        <option selected>目標について</option> <!--一番最初に選択がされる-->
+        <option>このWEBサイトについて</option>
+        <option>その他</option>
+      </select>
+    </p>
+
+    <p>質問内容<textarea></textarea> </p>
+
       <dl>
         <dt>質問A</dt>
         <dd>回答A</dd>
